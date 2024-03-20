@@ -67,7 +67,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
+#ifndef REG_STARTEND
 #include <regex.h>
+#endif
 
 #include <misc/string_begins_with.h>
 #include <misc/parse_number.h>
